@@ -7,7 +7,7 @@ buttons.map(button =>{
     button.addEventListener('click',(e) =>{ 
         switch(e.target.innerText){
             case 'clr':
-                display.innerText = '';
+                display.innerText = '0';
                 break;
             case '<-':
                 if(display.innerText){
