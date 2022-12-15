@@ -11,75 +11,75 @@
 	<div class="container">
 		
 		<div id="display">
-			<input type="number" id="input"  />
+			<input id="input" value=""  />
 		</div>
 		<br>
 		<br/>
 		<table>
 			<tr>
 				<td>
-					<button class="button" id="block1">1</button>
+					<button class="button" id="block1" value="1" onclick="add(this.value)">1</button>
 				</td>
 				<td>
-					<button class="button" id="block2">2</button>
+					<button class="button" id="block2" value="2" onclick="add(this.value)">2</button>
 				</td>
 				<td>
-					<button class="button" id="block3">3</button>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<button class="button" id="block4">4</button>
-				</td>
-				<td>
-					<button class="button" id="block5">5</button>
-				</td>
-				<td>
-					<button class="button" id="block6">6</button>
+					<button class="button" id="block3" value="3" onclick="add(this.value)">3</button>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<button class="button" id="block7">7</button>
+					<button class="button" id="block4" value="4" onclick="add(this.value)">4</button>
 				</td>
 				<td>
-					<button class="button" id="block8">8</button>
+					<button class="button" id="block5" value="5" onclick="add(this.value)">5</button>
 				</td>
 				<td>
-					<button class="button" id="block9">9</button>
+					<button class="button" id="block6" value="6" onclick="add(this.value)">6</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button class="button" id="block7" value="7" onclick="add(this.value)">7</button>
+				</td>
+				<td>
+					<button class="button" id="block8" value="8" onclick="add(this.value)">8</button>
+				</td>
+				<td>
+					<button class="button" id="block9" value="9" onclick="add(this.value)">9</button>
 				</td>
 			</tr>
 			<tr>
 				<td></td>
 				<td>
-					<button class="button" id="block0">0</button>
+					<button class="button" id="block0" value="0" onclick="add(this.value)">0</button>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<button class="button" id="plus">+</button>
+					<button class="button" id="plus" value="+" onclick="add(this.value)">+</button>
 				</td>
 				<td>
-					<button class="button" id="minus">-</button>
+					<button class="button" id="minus" value="-" onclick="add(this.value)">-</button>
 				</td>
 				<td>
-					<button class="button" id="multiply">*</button>
+					<button class="button" id="multiply" value="*" onclick="add(this.value)">*</button>
 				</td>
 			</tr>
 			<tr>	
 				<td>
-					<button class="button" id="divide">/</button>
+					<button class="button" id="divide" value="/" onclick="add(this.value)">/</button>
 				</td>
 				<td>
-					<button class="button" id="clr">clr</button>
+					<button class="button" id="clr" value="clr" onclick="clear()">clr</button>
 				</td>
 				<td>
-					<button class="button" id="dot">.</button>
+					<button class="button" id="dot" value="." onclick="add(this.value)">.</button>
 				</td>
 			</tr>
 			<tr>
 				<td></td>
-				<td><button class="button" id="ans">ans</button></td>
+				<td><button class="button" id="ans" value="ans" onclick=ans()>ans</button></td>
 			</tr>
 		</table>
 	</div>
